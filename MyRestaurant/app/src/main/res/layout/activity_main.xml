@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    >
+
+<ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="none">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+>
+
+    <!--Hamburgers Category-->
+    <FrameLayout
+        android:id="@+id/hamburger_frame"
+        android:onClick="goToHamburgerList"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <ImageView
+            android:layout_width="439dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/hamburger" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:background="#792B2B2B"
+            android:gravity="center"
+            android:text="Hamburgers"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+             />
+
+    </FrameLayout>
+
+    <!--Steak Category-->
+    <FrameLayout
+        android:id="@+id/steak_frame"
+        android:onClick="goToSteakList"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <ImageView
+            android:layout_width="439dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/steak" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:background="#792B2B2B"
+            android:gravity="center"
+            android:text="Steak"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            />
+
+    </FrameLayout>
+
+    <!--Salad Category-->
+    <FrameLayout
+        android:id="@+id/salad_frame"
+        android:onClick="goToSaladList"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        >
+
+        <ImageView
+            android:layout_width="439dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/salad" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:background="#792B2B2B"
+            android:gravity="center"
+            android:text="Salad"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            />
+
+    </FrameLayout>
+
+    <!--Salad Category-->
+    <FrameLayout
+        android:id="@+id/dessert_frame"
+        android:onClick="goToDessertList"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageView
+            android:layout_width="439dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/dessert" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="20dp"
+            android:background="#792B2B2B"
+            android:gravity="center"
+            android:text="Dessert"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
